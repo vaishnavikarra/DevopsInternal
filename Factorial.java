@@ -1,6 +1,6 @@
 public class Factorial{
     public static long Compute(int n){
-        if(n<0) throw new illegealArgumentException("Number not allowed");
+        if(n<0) throw new IllegealArgumentException("Number not allowed");
         long res=1;
         for(int i=2;i<=n;i++){
             res*=i;

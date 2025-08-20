@@ -8,10 +8,10 @@ public class TestFactorial{
                 throw new AssertionError("test failed for input 1");
 
             }
-            System.out.pritnln("All tests passed");
+            System.out.println("All tests passed");
         }
         catch(Exception e){
-            System.out.pritnln("Tets Failed: "+e.getMessage());
+            System.out.println("Tets Failed: "+e.getMessage());
         }
     }
 }
